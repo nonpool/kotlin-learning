@@ -1,2 +1,2 @@
-rootProject.name = "kotlin-example"
+rootProject.name = "kotlin-learning"
 include("delegation")
