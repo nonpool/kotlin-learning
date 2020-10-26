@@ -1,6 +1,18 @@
 
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath ("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.10")
+    }
+}
+
+
 plugins {
-    kotlin("jvm") version "1.3.72"
+    kotlin("jvm") version "1.4.10"
 }
 
 
@@ -17,12 +29,12 @@ subprojects {
     tasks {
         compileKotlin {
             kotlinOptions {
-                jvmTarget = JavaVersion.VERSION_11.toString()
+                jvmTarget = JavaVersion.VERSION_1_8.toString()
             }
         }
         compileTestKotlin {
             kotlinOptions {
-                jvmTarget = JavaVersion.VERSION_11.toString()
+                jvmTarget = JavaVersion.VERSION_1_8.toString()
             }
 
         }
