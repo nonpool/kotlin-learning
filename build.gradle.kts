@@ -6,13 +6,13 @@ buildscript {
     }
 
     dependencies {
-        classpath ("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.10")
+        classpath ("org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.30")
     }
 }
 
 
 plugins {
-    kotlin("jvm") version "1.4.10"
+    kotlin("jvm") version "1.4.30"
 }
 
 
